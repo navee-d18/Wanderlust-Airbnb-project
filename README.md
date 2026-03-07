@@ -41,7 +41,7 @@ This phase implements **full CRUD functionality** for listings.
 | GET    | /listings/:id      | Show listing details       |
 | GET    | /listings/:id/edit | Edit listing form          |
 | PUT    | /listings/:id      | Update listing             |
-| DELETE | /listings/:id      | Delete listing             |
+| DELETE | /listings/:id      | Delete listings            |
 
 ---
 
