@@ -1,6 +1,7 @@
 # Wanderlust - Airbnb Inspired Project
 
 Airbnb project learning progress.
+Learning GitHub achievements.
 
 Wanderlust is an Airbnb-inspired web application where users can explore and manage property listings.
 This project was built while learning full-stack web development using **Node.js, Express, MongoDB, and EJS**.
