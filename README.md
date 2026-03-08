@@ -1,10 +1,7 @@
 # Wanderlust - Airbnb Inspired Project
 
-Airbnb project learning progress.
-Learning GitHub achievements.
-
 Wanderlust is an Airbnb-inspired web application where users can explore and manage property listings.
-This project was built while learning full-stack web development using **Node.js, Express, MongoDB, and EJS**.
+This project is built while learning full-stack web development using Node.js, Express, MongoDB, and EJS.
 
 ---
 
@@ -15,11 +12,14 @@ This project was built while learning full-stack web development using **Node.js
 * MongoDB
 * Mongoose
 * EJS
+* Bootstrap
 * HTML & CSS
 
 ---
 
-## Features
+## Features Implemented
+
+### Listings CRUD
 
 * View all property listings
 * View individual listing details
@@ -28,7 +28,13 @@ This project was built while learning full-stack web development using **Node.js
 * Update listing information
 * Delete listings
 
-This phase implements **full CRUD functionality** for listings.
+### UI Features
+
+* Responsive Navbar
+* Footer section
+* Layout system using **EJS-Mate**
+* Styled index page using **Bootstrap**
+* Static assets using **Express public folder**
 
 ---
 
@@ -42,24 +48,35 @@ This phase implements **full CRUD functionality** for listings.
 | GET    | /listings/:id      | Show listing details       |
 | GET    | /listings/:id/edit | Edit listing form          |
 | PUT    | /listings/:id      | Update listing             |
-| DELETE | /listings/:id      | Delete listings            |
+| DELETE | /listings/:id      | Delete listing             |
 
 ---
 
 ## Project Structure
 
 ```
-Airbnb-project
+Wanderlust-Airbnb-project
 │
-├── models
-│   └── listing.js
+├── public
+│   └── css
+│       └── style.css
 │
 ├── views
+│   ├── includes
+│   │   ├── navbar.ejs
+│   │   └── footer.ejs
+│   │
+│   ├── layouts
+│   │   └── boilerplate.ejs
+│   │
 │   └── listings
 │       ├── index.ejs
 │       ├── show.ejs
 │       ├── new.ejs
 │       └── edit.ejs
+│
+├── models
+│   └── listing.js
 │
 ├── app.js
 ├── package.json
