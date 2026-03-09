@@ -35,6 +35,7 @@ This project is built while learning full-stack web development using Node.js, E
 * Layout system using **EJS-Mate**
 * Styled index page using **Bootstrap**
 * Static assets using **Express public folder**
+* Styled New Listing form using **Bootstrap**
 
 ---
 
