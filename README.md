@@ -38,6 +38,20 @@ This project is built while learning full-stack web development using Node.js, E
 * Styled New Listing form using **Bootstrap**
 * Styled Edit Listing Form using **Bootstrap**
 
+
+### Current Progress
+
+**Phase 1 Part A:**
+* Implemented full CRUD functionality for listings
+
+**Phase 1 Part B:**
+* Added Navbar and Footer
+* Implemented layout using EJS-Mate
+* Styled index page
+* Styled new listing form
+* Styled edit listing form
+* Styled show listing page
+
 ---
 
 ## Routes
