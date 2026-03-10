@@ -16,9 +16,9 @@ const listingSchema = new Schema({
         },
         url: {
             type: String,
-            default: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+            default: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+            set : (v) => v === "" ? "https://unsplash.com/photos/a-large-white-house-sitting-on-the-side-of-a-road-27dyESJ0RIk" : v
         },
-        // set : (v) => v === "" ? "https://unsplash.com/photos/a-large-white-house-sitting-on-the-side-of-a-road-27dyESJ0RIk" : v
     },
     price : {
         type : Number
